@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzería 🍕</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Bienvenido a la Pizzería 🍕</h1>
+
+  <div class="pizzas-container">
+    <div class="card" onclick="mostrarInfo('margarita')">
+      <img src="img/margarita.jpeg" alt="Pizza Margarita">
+      <h2>Pizza Margarita</h2>
+      <p>Clásica con tomate, queso y albahaca fresca.</p>
+    </div>
+
+    <div class="card" onclick="mostrarInfo('pepperoni')">
+      <img src="img/peperoni.jpeg" alt="Pizza Pepperoni">
+      <h2>Pizza Pepperoni</h2>
+      <p>Una de las favoritas, con mucho pepperoni.</p>
+    </div>
+
+    <div class="card" onclick="mostrarInfo('hawaiana')">
+      <img src="img/OIP.jpeg" alt="Pizza Hawaiana">
+      <h2>Pizza Hawaiana</h2>
+      <p>Deliciosa mezcla de jamón y piña.</p>
+    </div>
+
+  <div class="card" onclick="mostrarInfo('mexicana')">
+      <img src="img/mexicana.webp" alt="Pizza a la Mexicana">
+      <h2>Pizza a la Mexicana</h2>
+      <p>Deliciosa mezcla de carne  y chile.</p>
+    </div>
+
+  </div>
+
+  <!-- Contenedor para mostrar detalles -->
+  <div class="detalles-container">
+    <div id="margarita" class="detalles">
+      <h3>Pizza Margarita</h3>
+      <p><strong>Ingredientes:</strong> Salsa de tomate, queso mozzarella, albahaca fresca.</p>
+      <p><strong>Proceso:</strong> Preparar la base, añadir salsa y queso, hornear 10 min a 220°C.</p>
+    </div>
+
+    <div id="pepperoni" class="detalles">
+      <h3>Pizza Pepperoni</h3>
+      <p><strong>Ingredientes:</strong> Salsa de tomate, queso mozzarella, pepperoni.</p>
+      <p><strong>Proceso:</strong> Colocar la salsa, cubrir con queso y pepperoni, hornear 12 min.</p>
+    </div>
+
+    <div id="hawaiana" class="detalles">
+      <h3>Pizza Hawaiana</h3>
+      <p><strong>Ingredientes:</strong> Salsa de tomate, queso mozzarella, jamón, piña.</p>
+      <p><strong>Proceso:</strong> Extender la salsa, agregar queso, jamón y piña, hornear 12 min.</p>
+    </div>
+
+       <div id="mexicana" class="detalles">
+      <h3>Pizza a la Mexicana</h3>
+      <p><strong>Ingredientes:</strong> Salsa de tomate, queso mozzarella, carne molida, chile verde.</p>
+      <p><strong>Proceso:</strong> Extender la salsa, agregar queso, carne molida y chile verde, hornear 12 min.</p>
+    </div>
+  </div>
+
+
+       <!-- Apartado de Videos -->
+  <section class="videos">
+    <h2>🎥 Aprende a preparar pizzas deliciosas</h2>
+    <div class="videos-container">
+      <div class="video-card">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/gpRe6_ggbe8?si=Sfl_YLYg7We5Mj4F" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy=
+      "strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Cómo preparar Pizza Margarita</p>
+      </div>
+
+      <div class="video-card">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I892jOtRaX8?si=jxH6CNr_T1-OZsz2" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Cómo preparar Pizza Pepperoni</p>
+      </div>
+
+      <div class="video-card">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/XU8od3Cnczk?si=1eNUlOz1szABB0ep" 
+       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+       gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Cómo preparar Pizza Hawaiana</p>
+      </div>
+
+            <div class="video-card">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/ysa6ufg_Bjg?si=hQNLxDdWGEyBAitD" title=
+   "YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+    picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Cómo preparar Pizza a la Mexicana</p>
+      </div>
+
+    </div>
+      </div>
+ </section>
+  <script src="js/script.js"></script>
+</body>
+</html>
+
